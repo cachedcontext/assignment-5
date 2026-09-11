@@ -1,4 +1,3 @@
-// import { link } from 'fs';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -18,7 +17,7 @@ const Navbar = () => {
                     </button>
 
                     <a href="#" className='flex items-center'>
-                        <img src="/public/logo-text.png" alt="logo" className='h-9'/>
+                        <img src="/logo-text.png" alt="logo" className='h-9'/>
                         {/* <span className='text-gradient'>Dev</span>{' '}
                         <span className='text-slate-900'>Stack</span> */}
                     </a>
