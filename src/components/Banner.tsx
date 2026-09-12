@@ -1,8 +1,6 @@
-
-
 const Banner = () => {
   return (
-    <div className="md:grid md:grid-cols-2 md:items-center mx-auto max-w-7xl px-4 sm:px-6 py-8 lg:px-8 md:gap-10 md:py-24">
+    <div className="md:grid md:grid-cols-2 md:items-center mx-auto max-w-7xl px-4 sm:px-6 pt-6 pb-6 md:pt-24 md:pb-6">
       <div className="text-center md:text-left">
         <h1 className="text-4xl font-extrabold md:text-5xl lg:text-6xl text-slate-900 leading-tight">
           Build Your Ideal
@@ -30,7 +28,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="md:mt-0">
-        <img src="/banner-stack.png" alt="dev stack image" className="w-full" />
+        <img src="/banner-stack.png" alt="dev stack image" className="w-full max-w-xl mx-auto" />
       </div>
     </div>
   );

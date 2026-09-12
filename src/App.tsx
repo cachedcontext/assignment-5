@@ -3,6 +3,8 @@ import { type Technology } from "./type"
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import Sidebar from "./components/Sidebar";
+
 
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
@@ -27,21 +29,29 @@ function App() {
     setStack([...stack, tech])
   }
 
+  const removeFromStack = (id: string) => {
+    setStack(stack.filter((item) => item.id !== id ))
+  }
+
+  const removeAll = () => {
+    setStack([])
+  }
+
 
   return (
     <>
     <Navbar />
     <Banner />
-    <div className="text-center md:text-left mx-auto max-w-7xl px-6 pt-12">
+    <div className="text-center md:text-left mx-auto max-w-7xl px-6 pt-0">
       <h2 className="font-bold text-slate-900 text-3xl md:text-4xl">
          Explore the <span className="text-gradient">Technologies</span>
       </h2>
-      <p className="text-slate-500 mt-8">
+      <p className="text-slate-500 mt-2">
         Pick one technology per category to build your ideal stack.
       </p>
     </div>
-
-       <div className="grid mt-4 p-4 gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+    <div className="flex flex-col lg:flex-row gap-6 max-w-7xl mx-auto px-6 pb-12 mt-8">
+       <div className="flex-1 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {loading ? (
            <p className="col-span-full">Loading...</p>
           ) : (
@@ -54,6 +64,14 @@ function App() {
               />
             ))
             )}
+      </div>
+      <div className="w-full lg:w-80">
+        <Sidebar 
+        stack={stack}
+        remove={removeFromStack}
+        removeAll={removeAll}
+        />
+      </div>
       </div>
     </>
   )

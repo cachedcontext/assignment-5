@@ -8,7 +8,7 @@ interface TechProps {
 const Card = ({ tech, onAdd, inStack }: TechProps) => {
     console.log(tech.name, inStack)
   return (
-    <div className="bg-white border border-slate-100 rounded-2xl shadow-sm p-5">
+    <div className="bg-white border border-slate-100 rounded-2xl shadow-sm p-5 flex flex-col justify-between">
       <div className="flex justify-between items-start">
         <img src={tech.icon} alt={tech.name} className="h-10 w-10" />
         <span className="bg-cyan-50 font-semibold text-cyan-600 text-xs rounded-full px-3 py-1">
