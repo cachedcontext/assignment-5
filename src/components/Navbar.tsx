@@ -18,8 +18,6 @@ const Navbar = () => {
 
                     <a href="#" className='flex items-center'>
                         <img src="/logo-text.png" alt="logo" className='h-9'/>
-                        {/* <span className='text-gradient'>Dev</span>{' '}
-                        <span className='text-slate-900'>Stack</span> */}
                     </a>
                     <ul className='hidden md:flex items-center gap-8'>
                         {links.map((link) => (
