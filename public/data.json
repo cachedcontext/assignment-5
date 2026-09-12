@@ -14,7 +14,7 @@
     "name": "Vue.js",
     "category": "Frontend",
     "description": "A progressive framework that is easy to learn and great for building web interfaces.",
-    "icon": "https://icon.icepanel.io/Technology/svg/VueJS.svg",
+    "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
     "badge": "Versatile"
@@ -34,7 +34,7 @@
     "name": "Next.js",
     "category": "Frontend",
     "description": "A React framework with server-side rendering and routing built in.",
-    "icon": "https://icon.icepanel.io/Technology/svg/NextJS.svg",
+    "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Popular"
@@ -44,7 +44,7 @@
     "name": "Node.js",
     "category": "Backend",
     "description": "Lets you run JavaScript on the server, built on Chrome's V8 engine.",
-    "icon": "https://icon.icepanel.io/Technology/svg/NodeJS.svg",
+    "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Standard"
@@ -104,7 +104,7 @@
     "name": "Tailwind CSS",
     "category": "Styling",
     "description": "A utility-first CSS framework where you style elements with small classes.",
-    "icon": "https://icon.icepanel.io/Technology/svg/TailwindCSS.svg",
+    "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Modern"
