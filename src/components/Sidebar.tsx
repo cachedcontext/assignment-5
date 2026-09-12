@@ -16,7 +16,7 @@ const Sidebar = ({ stack, remove, removeAll }: StackProps) => {
                 {stack.length} Technology Selected
             </p>
             {stack.length ===0 ? (
-                <div className="text-center border border-slate-200 border-dashed rounded-xl py-8 mt4">
+                <div className="text-center border border-slate-200 border-dashed rounded-xl py-8 mt-4">
                     <p className="text-sm text-slate-400">
                         No technologies selected yet.
                     </p>
@@ -39,7 +39,7 @@ const Sidebar = ({ stack, remove, removeAll }: StackProps) => {
                                     </p>
                                 </div>
                             </div>
-                            <button onClick={() => remove(item.id)} className="text-lg text-slate-400 hover:text-red">
+                            <button onClick={() => remove(item.id)} className="text-lg text-slate-400 hover:text-red-500 transition">
                                 ✕
                             </button>
                         </div>

@@ -51,7 +51,7 @@ function App() {
       </p>
     </div>
     <div className="flex flex-col lg:flex-row gap-6 max-w-7xl mx-auto px-6 pb-12 mt-8">
-       <div className="flex-1 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+       <div className="flex-1 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
         {loading ? (
            <p className="col-span-full">Loading...</p>
           ) : (
