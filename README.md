@@ -6,7 +6,7 @@ A React app to explore different development technologies and building your own 
 ## Technologies Used
   - React.js
   - TypeScript
-  - Taiilwind CSS, Daisy UI
+  - Taiilwind CSS
   - React-Toastify
   - JSON (for technology data)
   - Vite (build tool)
@@ -32,7 +32,7 @@ State is data that belongs to a component and can change over time. When the sta
 ### 3. What does the useState hook do, and where did you use it in this project?
 *Answer* useState is used to create and manage state in a React component. I used useState in App.tsx for 'stact', 'technologies' and 'loading'.
 
-### 4. What does the useState hook do, and why did you need it to load JSON data?
+### 4. What does the useEffect hook do, and why did you need it to load JSON data?
 *Answer* useEffect lets us run code after the component renders. I needed it to load JSON data and to fetch the data after the component is rendered.
 
 ### 5. Why does every item in a .map() list need a unique key prop?
