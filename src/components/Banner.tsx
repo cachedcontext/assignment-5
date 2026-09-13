@@ -28,7 +28,11 @@ const Banner = () => {
         </div>
       </div>
       <div className="md:mt-0">
-        <img src="/banner-stack.png" alt="dev stack image" className="w-full max-w-xl mx-auto" />
+        <img
+          src="/banner-stack.png"
+          alt="dev stack image"
+          className="w-full max-w-xl mx-auto"
+        />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ interface TechProps {
   inStack: boolean;
 }
 const Card = ({ tech, onAdd, inStack }: TechProps) => {
-    console.log(tech.name, inStack)
+  console.log(tech.name, inStack);
   return (
     <div className="bg-white border border-slate-100 rounded-2xl shadow-sm p-5 flex flex-col justify-between">
       <div className="flex justify-between items-start">
